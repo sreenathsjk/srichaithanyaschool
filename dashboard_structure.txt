@@ -1,0 +1,130 @@
+=== HEADINGS ===
+
+=== KEY CLASSES/COMPONENTS ===
+sidebar-nav
+nav-section-label
+nav-item active
+nav-item
+nav-badge
+stats-grid
+stat-card gold
+stat-icon
+stat-info
+stat-value
+stat-label
+stat-sub text-gold
+stat-card teal
+stat-sub
+stat-card green
+stat-sub text-red
+stat-card blue
+card
+card-header
+card-title
+card-body
+empty-state
+report-card
+modal-header
+
+=== LINKS ===
+Link: href="sri-chaithanya-school.html" text="SC Sri Chaithanya English Medium School"
+Link: href="sri-chaithanya-school.html" text="Main Website"
+Link: href="sri-chaithanya-school.html" text=""
+Link: href="tel:${s.phone}" text="${s.phone}"
+
+=== BUTTONS ===
+Button: "Overview"
+Button: "Students 0"
+Button: "Admissions 0"
+Button: "Attendance"
+Button: "Fee Management"
+Button: "Teachers 0"
+Button: "Classes"
+Button: "Reports"
+Button: "Logout"
+Button: ""
+Button: ""
+Button: "View All"
+Button: "Add Student"
+Button: "New Admission"
+Button: "All Present"
+Button: "All Absent"
+Button: "Save Attendance"
+Button: "Add Fee Record"
+Button: "Add Teacher"
+Button: "Generate Report"
+Button: ""
+Button: ""
+Button: ""
+Button: ""
+Button: ""
+Button: "Cancel"
+Button: "Add Student"
+Button: ""
+Button: "Cancel"
+Button: "Yes, Delete"
+Button: ""
+Button: "Cancel"
+Button: "Add Record"
+Button: ""
+Button: "Cancel"
+Button: "Add Teacher"
+Button: ""
+Button: "Cancel"
+Button: "Submit Admission"
+Button: ""
+Button: "Close"
+Button: "WhatsApp"
+Button: "Download PDF"
+
+=== INPUTS ===
+Input: type="text" class="search-input" placeholder="Search by name, parent..." oninput="appFns.searchStudents(this.value)"
+Input: type="text" class="search-input" placeholder="Search applicant name..." oninput="appFns.searchAdmissions(this.value)"
+Input: type="date" id="attDate" style="width:auto;padding:8px 12px;font-size:0.82rem;" onchange="appFns.loadAttendanceForDate()"
+Input: type="text" class="search-input" placeholder="Search by student name..." oninput="appFns.filterFees(this.value)"
+Input: type="text" class="search-input" placeholder="Search by name or subject..." oninput="appFns.searchTeachers(this.value)"
+Input: type="date" id="reportFrom"
+Input: type="date" id="reportTo"
+Input: type="text" id="sName" placeholder="e.g. Ramesh Kumar" required
+Input: type="date" id="sDob" required
+Input: type="text" id="sRoll" placeholder="e.g. 25"
+Input: type="text" id="sParent" placeholder="e.g. Suresh Kumar" required
+Input: type="tel" id="sPhone" placeholder="9876543210" required
+Input: type="text" id="sAddress" placeholder="Village / Town"
+Input: type="text" id="sAadhaar" placeholder="XXXX XXXX XXXX"
+Input: type="text" id="sPrevSchool" placeholder="If applicable"
+Input: type="number" id="feeAmount" placeholder="e.g. 2500" min="1" required
+Input: type="date" id="feeDate" required
+Input: type="text" id="feeNotes" placeholder="Optional note"
+Input: type="text" id="tName" placeholder="e.g. Mrs. Lakshmi Devi" required
+Input: type="tel" id="tPhone" placeholder="9876543210" required
+Input: type="email" id="tEmail" placeholder="teacher@school.in"
+Input: type="text" id="tQualification" placeholder="e.g. B.Ed, M.Sc" required
+Input: type="number" id="tExperience" placeholder="e.g. 5" min="0"
+Input: type="text" id="tSubjects" placeholder="e.g. Mathematics, Science (comma separated)" required
+Input: type="date" id="tJoinDate"
+Input: type="number" id="tSalary" placeholder="e.g. 25000"
+Input: type="text" id="admName" placeholder="Student's full name" required
+Input: type="date" id="admDob" required
+Input: type="text" id="admParent" placeholder="Father/Mother name" required
+Input: type="tel" id="admPhone" placeholder="9876543210" required
+Input: type="date" id="admDate"
+Input: type="text" id="admPrevSchool" placeholder="If applicable"
+Input: type="checkbox" name="tClass" value="${cls}" style="width:auto;padding:0;border:none;"
+
+=== SELECTS ===
+Select attributes:  style="width:auto;padding:8px 12px;font-size:0.8rem;" onchange="appFns.filterByClass(this.value)"
+Select attributes:  style="width:auto;padding:8px 12px;font-size:0.8rem;" onchange="appFns.filterAdmissions(this.value)"
+Select attributes:  id="attClassFilter" style="width:auto;padding:8px 12px;font-size:0.82rem;" onchange="appFns.loadAttendanceForDate()"
+Select attributes:  style="width:auto;padding:8px 12px;font-size:0.8rem;" onchange="appFns.filterFeesByStatus(this.value)" id="feeStatusFilter"
+Select attributes:  id="reportStudentSelect"
+Select attributes:  id="reportType"
+Select attributes:  id="sGender" required
+Select attributes:  id="sClass" required
+Select attributes:  id="feeStudentSelect" required
+Select attributes:  id="feeType" required
+Select attributes:  id="feeMonth"
+Select attributes:  id="feeStatus" required
+Select attributes:  id="admGender" required
+Select attributes:  id="admClass" required
+Select attributes:  id="admStatus"

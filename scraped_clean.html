@@ -1,0 +1,668 @@
+ <!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sri Chaithanya English Medium School | Garladinne, Anantapur | Nursery to 10th Class</title>
+<meta name="description" content="Sri Chaithanya English Medium School, Garladinne, Anantapur – Premier institution offering quality education from Nursery to 10th Class. Shaping futures with excellence since establishment.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600;700&family=Cinzel:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">
+      <div class="logo-emblem">SC</div>
+      <div class="logo-text">
+        <div class="name">Sri Chaithanya</div>
+        <div class="tagline">English Medium School · Garladinne</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#academics">Academics</a></li>
+      <li><a href="#facilities">Facilities</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="login.html" class="nav-admin-btn"><i class="fas fa-lock"></i> Admin</a></li>
+      <li class="nav-cta-wrap"><a href="#admission" class="nav-cta">Enroll Now</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#classes" onclick="toggleMenu()">Classes</a>
+    <a href="#academics" onclick="toggleMenu()">Academics</a>
+    <a href="#facilities" onclick="toggleMenu()">Facilities</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+    <a href="login.html" onclick="toggleMenu()" style="color:var(--amber2);font-weight:700;border-top:1px solid rgba(192,128,40,0.18);padding-top:14px;margin-top:10px;"><i class="fas fa-lock"></i> Admin Login</a>
+    <a href="#admission" onclick="toggleMenu()" style="color:var(--amber2);font-weight:700;">⭐ Enroll Now</a>
+  </div>
+</nav>
+
+
+<section id="hero">
+  <div class="hero-slideshow">
+    <div class="slide-track" id="slideTrack">
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1600&q=80" alt="School Building" loading="eager"></div>
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600&q=80" alt="Students in Classroom" loading="lazy"></div>
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1600&q=80" alt="Students Playing Sports" loading="lazy"></div>
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?w=1600&q=80" alt="Science Laboratory" loading="lazy"></div>
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1600&q=80" alt="School Campus" loading="lazy"></div>
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1600&q=80" alt="Students Reading" loading="lazy"></div>
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&q=80" alt="Students Group Activity" loading="lazy"></div>
+      <div class="slide-item"><img src="https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=1600&q=80" alt="School Playground" loading="lazy"></div>
+    </div>
+  </div>
+
+  <div class="slide-dots" id="slideDots">
+    <div class="slide-dot active" onclick="goToSlide(0)"></div>
+    <div class="slide-dot" onclick="goToSlide(1)"></div>
+    <div class="slide-dot" onclick="goToSlide(2)"></div>
+    <div class="slide-dot" onclick="goToSlide(3)"></div>
+    <div class="slide-dot" onclick="goToSlide(4)"></div>
+    <div class="slide-dot" onclick="goToSlide(5)"></div>
+    <div class="slide-dot" onclick="goToSlide(6)"></div>
+    <div class="slide-dot" onclick="goToSlide(7)"></div>
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  
+  <div class="hero-wave">
+    [SVG-ICON]
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-overline">
+      <i class="fas fa-star" style="font-size:0.55rem;"></i>
+      Garladinne · Anantapur · Andhra Pradesh
+      <i class="fas fa-star" style="font-size:0.55rem;"></i>
+    </div>
+
+    <h1 class="hero-school-name">
+      Sri <span class="highlight">Chaithanya</span><br>English Medium School
+    </h1>
+    <div class="hero-subtitle">
+      <i class="fas fa-map-marker-alt" style="color:var(--amber2);margin-right:8px;font-size:0.85rem;"></i>
+      Garladinne, Anantapur District — 515 731
+    </div>
+    <p class="hero-tagline">"Inspiring Minds. Shaping Futures. Building Leaders."</p>
+
+    <div class="hero-stats">
+      <div class="hero-stat-item"><div class="num">12+</div><div class="lbl">Classes Offered</div></div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat-item"><div class="num">500+</div><div class="lbl">Students Enrolled</div></div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat-item"><div class="num">98%</div><div class="lbl">Pass Rate</div></div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat-item"><div class="num">35+</div><div class="lbl">Expert Faculty</div></div>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#admission" class="btn-gold"><i class="fas fa-graduation-cap"></i> Apply for Admission</a>
+    </div>
+  </div>
+</section>
+
+
+<div class="ticker-bar">
+  <div class="ticker-inner" id="tickerInner">
+    <span class="ticker-item"><i class="fas fa-star"></i> Nursery to 10th Class</span>
+    <span class="ticker-item"><i class="fas fa-trophy"></i> 98% Board Results 2024</span>
+    <span class="ticker-item"><i class="fas fa-book"></i> English Medium Education</span>
+    <span class="ticker-item"><i class="fas fa-flask"></i> State-of-Art Science Labs</span>
+    <span class="ticker-item"><i class="fas fa-desktop"></i> Smart Digital Classrooms</span>
+    <span class="ticker-item"><i class="fas fa-shield-alt"></i> Safe &amp; Secure Campus</span>
+    <span class="ticker-item"><i class="fas fa-bus"></i> Transport Facility Available</span>
+    <span class="ticker-item"><i class="fas fa-calendar"></i> Admissions Open 2025–26</span>
+    <span class="ticker-item"><i class="fas fa-star"></i> Nursery to 10th Class</span>
+    <span class="ticker-item"><i class="fas fa-trophy"></i> 98% Board Results 2024</span>
+    <span class="ticker-item"><i class="fas fa-book"></i> English Medium Education</span>
+    <span class="ticker-item"><i class="fas fa-flask"></i> State-of-Art Science Labs</span>
+    <span class="ticker-item"><i class="fas fa-desktop"></i> Smart Digital Classrooms</span>
+    <span class="ticker-item"><i class="fas fa-shield-alt"></i> Safe &amp; Secure Campus</span>
+    <span class="ticker-item"><i class="fas fa-bus"></i> Transport Facility Available</span>
+    <span class="ticker-item"><i class="fas fa-calendar"></i> Admissions Open 2025–26</span>
+  </div>
+</div>
+
+
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-main-img">
+          <div class="about-icon-scene">
+            <div class="school-building">🏫</div>
+            <div class="about-school-label">SRI CHAITHANYA<span>ENGLISH MEDIUM SCHOOL</span></div>
+          </div>
+        </div>
+        <div class="about-badge-float top reveal" style="transition-delay:0.2s;">
+          <div class="badge-icon" style="background:rgba(192,128,40,0.1);">🏆</div>
+          <div class="badge-text"><div class="num">Top</div><div class="txt">School Garladinne</div></div>
+        </div>
+        <div class="about-badge-float bottom reveal" style="transition-delay:0.3s;">
+          <div class="badge-icon" style="background:rgba(0,184,148,0.1);">📚</div>
+          <div class="badge-text"><div class="num">12+</div><div class="txt">Grade Levels</div></div>
+        </div>
+      </div>
+
+      <div class="reveal" style="transition-delay:0.15s;">
+        <div class="section-eyebrow">About Our School</div>
+        <h2 class="section-title">Where Excellence Meets <span>Education</span></h2>
+        <p class="section-sub">Sri Chaithanya English Medium School, Garladinne is a premier institution committed to holistic education from Nursery through 10th Class. Located in the heart of Garladinne, Anantapur District, we blend academic rigor with character development to prepare students for a bright future.</p>
+        <p class="section-sub" style="margin-top:14px;">Our school follows an English medium curriculum, ensuring students are equipped with strong language skills, scientific temper, and a love for lifelong learning.</p>
+
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="af-icon">🎓</div>
+            <div class="af-text">
+              <h5>Experienced &amp; Dedicated Faculty</h5>
+              <p>35+ qualified teachers with deep subject expertise and passion for nurturing young minds across all grade levels.</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="af-icon">🌐</div>
+            <div class="af-text">
+              <h5>English Medium Curriculum</h5>
+              <p>Complete English medium instruction from Nursery to 10th, preparing students for competitive exams and higher education.</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="af-icon">🔬</div>
+            <div class="af-text">
+              <h5>Modern Infrastructure</h5>
+              <p>Smart classrooms, science labs, computer labs, library, and sports grounds for all-round development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="classes">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">Our Classes</div>
+      <h2 class="section-title light">Nursery to 10th — <span>Complete Journey</span></h2>
+      <p class="section-sub" style="color:rgba(255,255,255,0.45);">Every stage of your child's academic journey, expertly guided from the very beginning.</p>
+    </div>
+
+    <div class="classes-grid">
+      <div class="class-card reveal" style="transition-delay:0.05s;">
+        <span class="class-icon">🌱</span>
+        <div class="class-name">Nursery</div>
+        <div class="class-desc">Play-based early childhood education &amp; language foundations</div>
+        <span class="class-tag">Early Childhood</span>
+      </div>
+      <div class="class-card reveal" style="transition-delay:0.1s;">
+        <span class="class-icon">🎒</span>
+        <div class="class-name">LKG / UKG</div>
+        <div class="class-desc">Phonics, numeracy &amp; social development through activity learning</div>
+        <span class="class-tag">Kindergarten</span>
+      </div>
+      <div class="class-card reveal" style="transition-delay:0.15s;">
+        <span class="class-icon">📝</span>
+        <div class="class-name">Class 1st – 3rd</div>
+        <div class="class-desc">Core literacy, mathematics &amp; environmental studies foundation</div>
+        <span class="class-tag">Primary</span>
+      </div>
+      <div class="class-card reveal" style="transition-delay:0.2s;">
+        <span class="class-icon">📚</span>
+        <div class="class-name">Class 4th – 5th</div>
+        <div class="class-desc">Expanded curriculum with science, arts &amp; language enrichment</div>
+        <span class="class-tag">Primary</span>
+      </div>
+      <div class="class-card reveal" style="transition-delay:0.3s;">
+        <span class="class-icon">🔭</span>
+        <div class="class-name">Class 6th – 7th</div>
+        <div class="class-desc">Science, social studies &amp; lab-based learning introduced</div>
+        <span class="class-tag">Middle School</span>
+      </div>
+      <div class="class-card reveal" style="transition-delay:0.4s;">
+        <span class="class-icon">🧮</span>
+        <div class="class-name">Class 8th</div>
+        <div class="class-desc">Pre-secondary foundation &amp; critical thinking development</div>
+        <span class="class-tag">Middle School</span>
+      </div>
+      <div class="class-card reveal" style="transition-delay:0.5s;">
+        <span class="class-icon">📐</span>
+        <div class="class-name">Class 9th</div>
+        <div class="class-desc">Board preparation begins — focused academic excellence</div>
+        <span class="class-tag">Secondary</span>
+      </div>
+      <div class="class-card featured reveal" style="transition-delay:0.55s;">
+        <span class="class-icon">🏅</span>
+        <div class="class-name">Class 10th — Board Exam</div>
+        <div class="class-desc">Intensive AP Board preparation with expert coaching &amp; mock tests</div>
+        <span class="class-tag">98% Pass Rate | AP Board</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-block reveal">
+        <div class="stat-num" data-target="500">500+</div>
+        <div class="stat-label">Students Enrolled</div>
+      </div>
+      <div class="stat-block reveal" style="transition-delay:0.1s;">
+        <div class="stat-num">35+</div>
+        <div class="stat-label">Expert Teachers</div>
+      </div>
+      <div class="stat-block reveal" style="transition-delay:0.2s;">
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Board Pass Rate</div>
+      </div>
+      <div class="stat-block reveal" style="transition-delay:0.3s;">
+        <div class="stat-num">12+</div>
+        <div class="stat-label">Classes Offered</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="why">
+  <div class="container">
+    <div style="text-align:center;" class="reveal">
+      <div class="section-eyebrow" style="justify-content:center;">Why Choose Us</div>
+      <h2 class="section-title">The Sri Chaithanya <span>Difference</span></h2>
+      <p class="section-sub" style="margin:0 auto;">We are more than just a school — we are a community committed to the holistic growth of every child.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-number">01</div>
+        <div class="why-icon">🏆</div>
+        <div class="why-title">Academic Excellence</div>
+        <div class="why-desc">Consistent 98%+ pass rates in 10th Board exams. Our structured curriculum and dedicated faculty ensure every student achieves their potential.</div>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.1s;">
+        <div class="why-number">02</div>
+        <div class="why-icon">🌐</div>
+        <div class="why-title">English Medium Education</div>
+        <div class="why-desc">Full English medium instruction from Nursery onwards. Students develop strong communication skills essential for higher education and professional life.</div>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.2s;">
+        <div class="why-number">03</div>
+        <div class="why-icon">👨‍🏫</div>
+        <div class="why-title">Qualified Faculty</div>
+        <div class="why-desc">35+ experienced teachers, each a specialist in their subject. Personal attention and individual mentoring for every student throughout their journey.</div>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.1s;">
+        <div class="why-number">04</div>
+        <div class="why-icon">🖥️</div>
+        <div class="why-title">Smart Classrooms</div>
+        <div class="why-desc">Technology-integrated learning with digital boards, projectors, and computer labs. Modern education for a modern world.</div>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.2s;">
+        <div class="why-number">05</div>
+        <div class="why-icon">🏃</div>
+        <div class="why-title">Sports &amp; Co-Curriculars</div>
+        <div class="why-desc">Cricket, kabaddi, athletics, cultural programs, debates, and science fairs. We believe in balanced development of mind and body.</div>
+      </div>
+      <div class="why-card reveal" style="transition-delay:0.3s;">
+        <div class="why-number">06</div>
+        <div class="why-icon">🛡️</div>
+        <div class="why-title">Safe Environment</div>
+        <div class="why-desc">CCTV-monitored campus, strict discipline, and a caring environment where every child feels safe, valued, and encouraged to grow.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="facilities">
+  <div class="container">
+    <div style="text-align:center;" class="reveal">
+      <div class="section-eyebrow" style="justify-content:center;">Our Infrastructure</div>
+      <h2 class="section-title">World-Class <span>Facilities</span></h2>
+      <p class="section-sub" style="margin:0 auto;">State-of-the-art infrastructure designed to support every aspect of a student's educational journey.</p>
+    </div>
+    <div class="fac-grid">
+      <div class="fac-card reveal">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#0a2540,#1a3a5c,#0d1e35);">
+          <div style="font-size:100px;opacity:0.12;user-select:none;">📚</div>
+        </div>
+        <div class="fac-overlay"></div>
+        <div class="fac-content">
+          <span class="fac-icon">📚</span>
+          <div class="fac-title">Central Library</div>
+          <div class="fac-desc">Over 5,000 books spanning academics, literature, and general knowledge. Open to all students daily for self-study and research.</div>
+        </div>
+      </div>
+      <div class="fac-card reveal" style="transition-delay:0.1s;">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);"></div>
+        <div class="fac-overlay"></div>
+        <div class="fac-content">
+          <span class="fac-icon">🔬</span>
+          <div class="fac-title">Science Laboratory</div>
+          <div class="fac-desc">Fully equipped Physics, Chemistry &amp; Biology labs for hands-on experiments from Class 6 onwards.</div>
+        </div>
+      </div>
+      <div class="fac-card reveal" style="transition-delay:0.15s;">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#0a2e1a,#143d26,#1e5c3a);"></div>
+        <div class="fac-overlay"></div>
+        <div class="fac-content">
+          <span class="fac-icon">💻</span>
+          <div class="fac-title">Computer Lab</div>
+          <div class="fac-desc">40-station computer lab with high-speed internet, enabling digital literacy from an early age.</div>
+        </div>
+      </div>
+      <div class="fac-card reveal" style="transition-delay:0.2s;">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#2e1a0a,#3d2614,#5c3a1e);"></div>
+        <div class="fac-overlay"></div>
+        <div class="fac-content">
+          <span class="fac-icon">🏅</span>
+          <div class="fac-title">Sports Ground</div>
+          <div class="fac-desc">Large playground with facilities for cricket, kabaddi, athletics, and indoor games.</div>
+        </div>
+      </div>
+      <div class="fac-card reveal" style="transition-delay:0.25s;">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#2e0a1a,#3d1426,#5c1e3a);"></div>
+        <div class="fac-overlay"></div>
+        <div class="fac-content">
+          <span class="fac-icon">🎭</span>
+          <div class="fac-title">Activity Hall</div>
+          <div class="fac-desc">Multi-purpose hall for cultural programs, annual day celebrations, debates, and assemblies.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="academics">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-eyebrow">Curriculum</div>
+      <h2 class="section-title">Academic <span>Programs</span></h2>
+      <p class="section-sub">Structured learning pathways tailored for each stage — from early childhood to secondary board preparation.</p>
+    </div>
+
+    <div class="academics-tabs">
+      <button class="tab-btn active" onclick="showTab('primary')">Primary (Nursery–5th)</button>
+      <button class="tab-btn" onclick="showTab('middle')">Middle School (6th–8th)</button>
+      <button class="tab-btn" onclick="showTab('secondary')">Secondary (9th–10th)</button>
+    </div>
+
+    <div id="tab-primary" class="tab-content active">
+      <div class="subject-card"><div class="subject-icon">📖</div><div><div class="subject-name">English Language</div><div class="subject-info">Phonics, reading, writing, comprehension &amp; spoken English from Nursery level</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🔢</div><div><div class="subject-name">Mathematics</div><div class="subject-info">Numbers, arithmetic, shapes, patterns and foundational concepts with activity-based learning</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🌿</div><div><div class="subject-name">Environmental Studies</div><div class="subject-info">Nature, community, health, and basic science integrated in an engaging format</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🎨</div><div><div class="subject-name">Art &amp; Craft</div><div class="subject-info">Creative expression through drawing, painting, clay modeling and paper crafts</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🎵</div><div><div class="subject-name">Music &amp; Dance</div><div class="subject-info">Classical and folk arts enriching students' cultural sensibility and confidence</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🧘</div><div><div class="subject-name">Moral &amp; Value Education</div><div class="subject-info">Character building, good manners, and ethical values from the very beginning</div></div></div>
+    </div>
+    <div id="tab-middle" class="tab-content">
+      <div class="subject-card"><div class="subject-icon">📘</div><div><div class="subject-name">English</div><div class="subject-info">Grammar, composition, prose, poetry and literature — advanced level</div></div></div>
+      <div class="subject-card"><div class="subject-icon">➗</div><div><div class="subject-name">Mathematics</div><div class="subject-info">Algebra, geometry, mensuration, statistics and problem solving</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🔬</div><div><div class="subject-name">Science</div><div class="subject-info">Physics, Chemistry, Biology — lab experiments and concept building</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🌍</div><div><div class="subject-name">Social Studies</div><div class="subject-info">Geography, History, Civics and economics — Indian and global contexts</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🗣️</div><div><div class="subject-name">Telugu / Hindi</div><div class="subject-info">Second language development — reading, writing, grammar and literature</div></div></div>
+      <div class="subject-card"><div class="subject-icon">💻</div><div><div class="subject-name">Computer Science</div><div class="subject-info">Basic programming, MS Office, internet literacy and digital safety</div></div></div>
+    </div>
+    <div id="tab-secondary" class="tab-content">
+      <div class="subject-card"><div class="subject-icon">📗</div><div><div class="subject-name">English (Paper 1 &amp; 2)</div><div class="subject-info">Board-level grammar, essay, letter writing and literature analysis</div></div></div>
+      <div class="subject-card"><div class="subject-icon">📐</div><div><div class="subject-name">Mathematics</div><div class="subject-info">Complete 10th class board syllabus with intensive problem practice and mock exams</div></div></div>
+      <div class="subject-card"><div class="subject-icon">⚗️</div><div><div class="subject-name">Physical Science</div><div class="subject-info">Physics &amp; Chemistry with lab work, board paper practice and concept mastery</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🧬</div><div><div class="subject-name">Biological Science</div><div class="subject-info">Botany and Zoology with diagrams, experiments, and board exam preparation</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🗺️</div><div><div class="subject-name">Social Studies</div><div class="subject-info">History, Geography, Economics and Civics — comprehensive board syllabus coverage</div></div></div>
+      <div class="subject-card"><div class="subject-icon">🌸</div><div><div class="subject-name">Telugu / Sanskrit</div><div class="subject-info">Second language paper — poetry, prose, grammar and board exam strategies</div></div></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="admission">
+  <div class="container">
+    <div class="admission-grid">
+      <div class="reveal">
+        <div class="section-eyebrow">Admissions 2025–26</div>
+        <h2 class="section-title">Join the Sri Chaithanya <span>Family</span></h2>
+        <p class="section-sub">We welcome students of all backgrounds. Our admission process is simple, transparent, and guided by a student-first philosophy.</p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h5>Contact the School</h5>
+              <p>Call us or visit the school between 9 AM – 5 PM (Mon–Sat) to express interest and learn about available seats for your child's class.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h5>School Visit &amp; Interaction</h5>
+              <p>Tour our campus, meet the teachers, and let your child interact with our faculty. This helps both families and school assess mutual suitability.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h5>Submit Documents</h5>
+              <p>Provide Birth Certificate, previous year's Marks Card/TC, Aadhar card, and 4 passport photos for admission registration.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-body">
+              <h5>Fee Payment &amp; Enrollment</h5>
+              <p>Complete fee payment and receive your Welcome Kit. Your child is officially a Sri Chaithanya student — the journey begins!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="admission-cta reveal" style="transition-delay:0.2s;">
+        <div style="font-size:56px;margin-bottom:18px;position:relative;z-index:1;">🎓</div>
+        <h3>Admissions Open!</h3>
+        <p>Secure your child's seat for the 2025–26 academic year at Sri Chaithanya English Medium School. Limited seats available — act now!</p>
+        <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;">
+          <a href="tel:+919876543210" class="btn-gold" style="font-size:0.82rem;padding:13px 26px;">
+            <i class="fas fa-phone"></i> Call Us Now
+          </a>
+          <a href="#contact" class="btn-outline" style="font-size:0.82rem;padding:12px 24px;">
+            <i class="fas fa-map-marker-alt"></i> Visit Campus
+          </a>
+        </div>
+        <div class="admission-info-box">
+          <div class="info-row"><i class="fas fa-graduation-cap"></i> Classes: Nursery, LKG, UKG, 1st to 10th</div>
+          <div class="info-row"><i class="fas fa-globe"></i> Medium: English</div>
+          <div class="info-row"><i class="fas fa-map-marker-alt"></i> Garladinne, Anantapur – 515 731</div>
+          <div class="info-row"><i class="fas fa-clock"></i> Enquiries: Mon–Sat, 9 AM – 5 PM</div>
+          <div class="info-row"><i class="fas fa-calendar"></i> Academic Year: 2025–26 | June Start</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="testimonials">
+  <div class="container">
+    <div style="text-align:center;" class="reveal">
+      <div class="section-eyebrow" style="justify-content:center;">Parent Stories</div>
+      <h2 class="section-title">What Our <span>Families Say</span></h2>
+      <p class="section-sub" style="margin:0 auto;">Hear from the parents who entrusted us with their children's future.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">My daughter joined Sri Chaithanya in Class 1 and now she's in Class 6 — the growth in her confidence and academic performance has been remarkable. The teachers genuinely care about each child.</p>
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-author">
+          <div class="testi-avatar">R</div>
+          <div><div class="testi-name">Ramaiah Goud</div><div class="testi-role">Parent of Class 6 Student</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:0.1s;">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">The English medium foundation my son got here helped him clear his 10th boards with distinction. The teachers prepare students brilliantly for board exams. Highly recommend!</p>
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-author">
+          <div class="testi-avatar">S</div>
+          <div><div class="testi-name">Sudha Devi</div><div class="testi-role">Parent of Class 10 Alumni</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:0.2s;">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">We enrolled our twins in Nursery class here. The way the school nurtures toddlers with play-based learning is amazing. Both children love coming to school every day!</p>
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-author">
+          <div class="testi-avatar">V</div>
+          <div><div class="testi-name">Venkat Reddy</div><div class="testi-role">Parent of Nursery Students</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <div class="section-eyebrow" style="justify-content:center;">Get In Touch</div>
+      <h2 class="section-title">Visit <span>Sri Chaithanya</span></h2>
+      <p class="section-sub" style="margin:0 auto;">We're always happy to welcome families. Come visit our campus or reach out through any of the channels below.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-cards reveal">
+        <div class="contact-card">
+          <div class="cc-icon" style="background:linear-gradient(135deg,rgba(192,128,40,0.12),rgba(192,128,40,0.04));">
+            <span style="font-size:1.3rem;">📍</span>
+          </div>
+          <div>
+            <div class="cc-label">School Address</div>
+            <div class="cc-value">Sri Chaithanya English Medium School<br>Garladinne (V &amp; M), Anantapur District<br>Andhra Pradesh – 515 731</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon" style="background:linear-gradient(135deg,rgba(0,184,148,0.12),rgba(0,184,148,0.04));">
+            <span style="font-size:1.3rem;">📞</span>
+          </div>
+          <div>
+            <div class="cc-label">Phone / WhatsApp</div>
+            <div class="cc-value">
+              <a href="tel:+919876543210">+91 98765 43210</a><br>
+              <a href="tel:+918099887766">+91 80998 87766</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon" style="background:linear-gradient(135deg,rgba(214,48,49,0.12),rgba(214,48,49,0.04));">
+            <span style="font-size:1.3rem;">✉️</span>
+          </div>
+          <div>
+            <div class="cc-label">Email</div>
+            <div class="cc-value">
+              <a href="mailto:info@srichaithanya.edu.in">info@srichaithanya.edu.in</a><br>
+              <a href="mailto:admissions@srichaithanya.edu.in">admissions@srichaithanya.edu.in</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon" style="background:linear-gradient(135deg,rgba(108,92,231,0.12),rgba(108,92,231,0.04));">
+            <span style="font-size:1.3rem;">🕐</span>
+          </div>
+          <div>
+            <div class="cc-label">School Timings</div>
+            <div class="cc-value">School Hours: 8:30 AM – 4:30 PM<br>Enquiries: 9:00 AM – 5:00 PM<br>Monday to Saturday | Sunday Closed</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-container reveal" style="transition-delay:0.2s;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.8456897043256!2d77.56297!3d14.67831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb14d5a7e2df4a7%3A0x8b1234567890abcd!2sGarladinne%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Sri Chaithanya English Medium School Location">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#hero" class="logo">
+        <div class="logo-emblem">SC</div>
+        <div class="logo-text">
+          <div class="name">Sri Chaithanya</div>
+          <div class="tagline" style="color:rgba(255,255,255,0.3);">English Medium School</div>
+        </div>
+      </a>
+      <p class="footer-desc">Shaping young minds with excellence, values, and vision. From Nursery to 10th Class — your child's complete educational journey, right here in Garladinne. 🌟</p>
+      <div class="social-links">
+        <a href="#" class="social-btn" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="social-btn" title="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="#about"><i class="fas fa-chevron-right"></i> About School</a></li>
+        <li><a href="#classes"><i class="fas fa-chevron-right"></i> Classes Offered</a></li>
+        <li><a href="#academics"><i class="fas fa-chevron-right"></i> Academics</a></li>
+        <li><a href="#facilities"><i class="fas fa-chevron-right"></i> Facilities</a></li>
+        <li><a href="#admission"><i class="fas fa-chevron-right"></i> Admissions</a></li>
+        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Classes</h5>
+      <ul>
+        <li><a href="#classes"><i class="fas fa-chevron-right"></i> Nursery &amp; LKG/UKG</a></li>
+        <li><a href="#classes"><i class="fas fa-chevron-right"></i> Class 1st to 5th</a></li>
+        <li><a href="#classes"><i class="fas fa-chevron-right"></i> Class 6th to 8th</a></li>
+        <li><a href="#classes"><i class="fas fa-chevron-right"></i> Class 9th &amp; 10th</a></li>
+        <li><a href="#academics"><i class="fas fa-chevron-right"></i> Board Preparation</a></li>
+        <li><a href="#admission"><i class="fas fa-chevron-right"></i> Enroll Now →</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="#contact"><i class="fas fa-map-marker-alt"></i> Garladinne, Anantapur – 515 731</a></li>
+        <li><a href="tel:+919876543210"><i class="fas fa-phone"></i> +91 98765 43210</a></li>
+        <li><a href="mailto:info@srichaithanya.edu.in"><i class="fas fa-envelope"></i> info@srichaithanya.edu.in</a></li>
+        <li><a href="#contact"><i class="fas fa-clock"></i> Mon–Sat: 8:30AM–4:30PM</a></li>
+        <li><a href="#contact"><i class="fas fa-map"></i> AP, India – Pin: 515 731</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <span>Sri Chaithanya English Medium School</span>, Garladinne. All rights reserved. | Made with ❤️ for the students of Anantapur District</p>
+    <p style="font-size:0.73rem;color:rgba(255,255,255,0.18);margin-top:6px;">Nursery to 10th Class | English Medium | Garladinne, Anantapur, Andhra Pradesh – 515 731</p>
+  </div>
+</footer>
+
+
+<button id="back-top" onclick="scrollToTop()" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+
+</body>
+</html>
+ 
+

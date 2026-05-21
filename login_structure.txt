@@ -1,0 +1,17 @@
+=== HEADINGS ===
+H1: Sri Chaithanya English Medium School
+
+=== FORMS ===
+Form with attributes:  id="loginForm"
+  Input:  type="email" id="emailInput" placeholder="principal@srichaithanya.in" required autocomplete="email"
+  Input:  type="password" id="passInput" placeholder="••••••••" required autocomplete="current-password"
+
+=== LINKS ===
+Link: href="sri-chaithanya-school.html" text="Back to School Website"
+
+=== BUTTONS ===
+Button: ""
+Button: "Access Dashboard"
+
+=== TEXT BLOCKS ===
+P: Garladinne · Anantapur · Admin Portal

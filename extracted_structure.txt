@@ -1,0 +1,136 @@
+=== HEADINGS ===
+H1: Sri Chaithanya English Medium School
+H2: Where Excellence Meets Education
+H5: Experienced &amp; Dedicated Faculty
+H5: English Medium Curriculum
+H5: Modern Infrastructure
+H2: Nursery to 10th — Complete Journey
+H2: The Sri Chaithanya Difference
+H2: World-Class Facilities
+H2: Academic Programs
+H2: Join the Sri Chaithanya Family
+H5: Contact the School
+H5: School Visit &amp; Interaction
+H5: Submit Documents
+H5: Fee Payment &amp; Enrollment
+H3: Admissions Open!
+H2: What Our Families Say
+H2: Visit Sri Chaithanya
+H5: Quick Links
+H5: Classes
+H5: Contact
+
+=== IMAGES ===
+Image: src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1600&q=80" alt="School Building"
+Image: src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600&q=80" alt="Students in Classroom"
+Image: src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1600&q=80" alt="Students Playing Sports"
+Image: src="https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?w=1600&q=80" alt="Science Laboratory"
+Image: src="https://images.unsplash.com/photo-1562774053-701939374585?w=1600&q=80" alt="School Campus"
+Image: src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1600&q=80" alt="Students Reading"
+Image: src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&q=80" alt="Students Group Activity"
+Image: src="https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=1600&q=80" alt="School Playground"
+
+=== LINKS ===
+Link: href="#hero" text="SC Sri Chaithanya English Medium School · Garladinne"
+Link: href="#about" text="About"
+Link: href="#classes" text="Classes"
+Link: href="#academics" text="Academics"
+Link: href="#facilities" text="Facilities"
+Link: href="#contact" text="Contact"
+Link: href="login.html" text="Admin"
+Link: href="#admission" text="Enroll Now"
+Link: href="#about" text="About"
+Link: href="#classes" text="Classes"
+Link: href="#academics" text="Academics"
+Link: href="#facilities" text="Facilities"
+Link: href="#contact" text="Contact"
+Link: href="login.html" text="Admin Login"
+Link: href="#admission" text="⭐ Enroll Now"
+Link: href="#admission" text="Apply for Admission"
+Link: href="tel:+919876543210" text="Call Us Now"
+Link: href="#contact" text="Visit Campus"
+Link: href="tel:+919876543210" text="+91 98765 43210"
+Link: href="tel:+918099887766" text="+91 80998 87766"
+Link: href="mailto:info@srichaithanya.edu.in" text="info@srichaithanya.edu.in"
+Link: href="mailto:admissions@srichaithanya.edu.in" text="admissions@srichaithanya.edu.in"
+Link: href="#hero" text="SC Sri Chaithanya English Medium School"
+Link: href="#" text=""
+Link: href="#" text=""
+Link: href="#" text=""
+Link: href="#" text=""
+Link: href="#about" text="About School"
+Link: href="#classes" text="Classes Offered"
+Link: href="#academics" text="Academics"
+Link: href="#facilities" text="Facilities"
+Link: href="#admission" text="Admissions"
+Link: href="#contact" text="Contact Us"
+Link: href="#classes" text="Nursery &amp; LKG/UKG"
+Link: href="#classes" text="Class 1st to 5th"
+Link: href="#classes" text="Class 6th to 8th"
+Link: href="#classes" text="Class 9th &amp; 10th"
+Link: href="#academics" text="Board Preparation"
+Link: href="#admission" text="Enroll Now →"
+Link: href="#contact" text="Garladinne, Anantapur – 515 731"
+Link: href="tel:+919876543210" text="+91 98765 43210"
+Link: href="mailto:info@srichaithanya.edu.in" text="info@srichaithanya.edu.in"
+Link: href="#contact" text="Mon–Sat: 8:30AM–4:30PM"
+Link: href="#contact" text="AP, India – Pin: 515 731"
+
+=== BUTTONS ===
+Button: ""
+Button: "Primary (Nursery–5th)"
+Button: "Middle School (6th–8th)"
+Button: "Secondary (9th–10th)"
+Button: ""
+
+=== TEXT BLOCKS ===
+P: "Inspiring Minds. Shaping Futures. Building Leaders."
+P: Sri Chaithanya English Medium School, Garladinne is a premier institution committed to holistic education from Nursery through 10th Class. Located in the heart of Garladinne, Anantapur District, we blend academic rigor with character development to prepare students for a bright future.
+P: Our school follows an English medium curriculum, ensuring students are equipped with strong language skills, scientific temper, and a love for lifelong learning.
+P: 35+ qualified teachers with deep subject expertise and passion for nurturing young minds across all grade levels.
+P: Complete English medium instruction from Nursery to 10th, preparing students for competitive exams and higher education.
+P: Smart classrooms, science labs, computer labs, library, and sports grounds for all-round development.
+P: Every stage of your child's academic journey, expertly guided from the very beginning.
+P: We are more than just a school — we are a community committed to the holistic growth of every child.
+P: State-of-the-art infrastructure designed to support every aspect of a student's educational journey.
+P: Structured learning pathways tailored for each stage — from early childhood to secondary board preparation.
+P: We welcome students of all backgrounds. Our admission process is simple, transparent, and guided by a student-first philosophy.
+P: Call us or visit the school between 9 AM – 5 PM (Mon–Sat) to express interest and learn about available seats for your child's class.
+P: Tour our campus, meet the teachers, and let your child interact with our faculty. This helps both families and school assess mutual suitability.
+P: Provide Birth Certificate, previous year's Marks Card/TC, Aadhar card, and 4 passport photos for admission registration.
+P: Complete fee payment and receive your Welcome Kit. Your child is officially a Sri Chaithanya student — the journey begins!
+P: Secure your child's seat for the 2025–26 academic year at Sri Chaithanya English Medium School. Limited seats available — act now!
+P: Hear from the parents who entrusted us with their children's future.
+P: My daughter joined Sri Chaithanya in Class 1 and now she's in Class 6 — the growth in her confidence and academic performance has been remarkable. The teachers genuinely care about each child.
+P: The English medium foundation my son got here helped him clear his 10th boards with distinction. The teachers prepare students brilliantly for board exams. Highly recommend!
+P: We enrolled our twins in Nursery class here. The way the school nurtures toddlers with play-based learning is amazing. Both children love coming to school every day!
+P: We're always happy to welcome families. Come visit our campus or reach out through any of the channels below.
+P: Shaping young minds with excellence, values, and vision. From Nursery to 10th Class — your child's complete educational journey, right here in Garladinne. 🌟
+P: © 2025 Sri Chaithanya English Medium School , Garladinne. All rights reserved. | Made with ❤️ for the students of Anantapur District
+P: Nursery to 10th Class | English Medium | Garladinne, Anantapur, Andhra Pradesh – 515 731
+
+=== LIST ITEMS ===
+LI: About
+LI: Classes
+LI: Academics
+LI: Facilities
+LI: Contact
+LI: Admin
+LI: Enroll Now
+LI: About School
+LI: Classes Offered
+LI: Academics
+LI: Facilities
+LI: Admissions
+LI: Contact Us
+LI: Nursery &amp; LKG/UKG
+LI: Class 1st to 5th
+LI: Class 6th to 8th
+LI: Class 9th &amp; 10th
+LI: Board Preparation
+LI: Enroll Now →
+LI: Garladinne, Anantapur – 515 731
+LI: +91 98765 43210
+LI: info@srichaithanya.edu.in
+LI: Mon–Sat: 8:30AM–4:30PM
+LI: AP, India – Pin: 515 731
